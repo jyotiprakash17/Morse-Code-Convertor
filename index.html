@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Morse Code Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Morse Code Converter</h1>
+    <div class="wrapper">
+        <!-- Loading Page -->
+        <div id="loadingPage">
+            <button class="inp-btn" id="ttm" value="1" aria-label="Text to Morse code">Text To Morse Code</button>
+            <button class="inp-btn" id="mtt" value="2" aria-label="Morse code to Text">Morse Code To Text</button>
+        </div>
+        <!-- Main Page -->
+        <div id="startPage" style="display: none;">
+            <div class="search-box">
+                <input type="text" placeholder="Type Here..." id="inp-word" aria-label="Enter text or Morse code">
+                <button id="convert-btn" aria-label="Convert">Convert</button>
+            </div>
+
+            <div class="info" id="res">
+                <div class="word">
+                    <h3>MORSE CODE CONVERTER</h3>
+                </div>
+                <p class="word-mean">
+                    This application is made using JavaScript. Type <strong><span id="pre-text"></span></strong> in
+                    the input box, and it will be converted into <strong><span id="text"></span></strong>.
+                </p>
+                <p class="example">
+                    Made by <a target="_blank" href="https://github.com/jyotiprakash17">Jyotiprakash</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
