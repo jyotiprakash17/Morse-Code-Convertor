@@ -37,4 +37,4 @@ You can download the project files and run it locally by following these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/morse-code-converter.git
+   git clone https://github.com/jyotiprakash17/morse-code-converter.git
