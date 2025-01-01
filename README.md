@@ -31,10 +31,4 @@ A simple web-based **Morse Code Converter** that allows users to convert between
 - **CSS**: For styling and making the page responsive. 🎨
 - **JavaScript**: For logic to convert between text and Morse code. 💻
 
-## Installation 🛠️
 
-You can download the project files and run it locally by following these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/jyotiprakash17/morse-code-converter.git
